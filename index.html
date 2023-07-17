@@ -1,0 +1,390 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.5/font/bootstrap-icons.css">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+    <title>Document</title>
+    <style>
+        /* section-1 */
+        .bg-gray {
+            background: rgb(241 241 239);
+        }
+
+        .nevy-blue {
+            background: rgb(0 44 83);
+        } 
+
+        .text-nevy-blue {
+            color: rgb(0 44 83);
+        }
+        .btn-orange {
+          color: #ef5f00;;
+        }
+        .dropdown a{
+            width: 100%;
+            text-align: left;
+        }
+        .card {
+            border: none;
+        }
+        .card-body {
+            flex: 1 1 auto;
+            padding: 0rem 0rem;
+        }
+
+        
+        .dropdown-toggle {
+            white-space: normal;
+        }
+        .dropdown-toggle::after {
+            float: right;
+            margin-top: 15px;
+        }
+
+        .bi-chevron-down::before {
+            float: right;
+            margin: 15px 0px;
+        }
+
+        /* Tabs */
+
+        .nav-item {
+          margin: 5px;
+          background: gainsboro;
+          border-radius: 35px;
+        }
+       .nav-link {
+        color:black;
+        padding: 12px;
+        text-align: center;
+        text-decoration: none;
+        font-size: 16px;
+        cursor: pointer;
+       }
+        
+    </style>
+</head>
+<body>
+
+    <!-- section-1 -->
+
+    <section class="bg-gray">
+        <div class="container">
+            <div class="pt-5 pb-3 text-nevy-blue display-1">
+                <h1 class="fw-bold display-2">BizCubad Blog</h1>
+            </div>
+        </div>
+    </section>
+
+    <!-- section-2 -->
+
+    <section>
+        <div class="container">
+            <div class="row row-cols-1 row-cols-md-2 justify-content-center">
+                <div class="col-sm-12 col-md-8 pt-5">
+                  <div class="card">
+                    <img src="img/3.jpg" class="" alt="...">
+                    <div class="card-body">
+                        <div class="dropdown">
+                            <a class="btn btn-drop nevy-blue nevy-blue rounded-0 text-white p-4 fs-2" href="#" role="button" id="dropdownMenuLink" data-bs-toggle="dropdown" aria-expanded="false">
+                                Data Security as a practice
+                                <i class="bi bi-chevron-down"></i>
+                            </a>
+                          
+                            <ul class="dropdown-menu" aria-labelledby="dropdownMenuLink">
+                              <li><a class="dropdown-item" href="#">Action</a></li>
+                              <li><a class="dropdown-item" href="#">Another action</a></li>
+                              <li><a class="dropdown-item" href="#">Something else here</a></li>
+                            </ul>
+                        </div>
+                    </div>
+                  </div>
+                </div>
+                <div class="col-md-4 col-sm-10 pt-5">
+                  <div class="row d-flex align-items-center">
+                    <div class="col">
+                        <div class="card">
+                          <img src="img/moon_crop.jpg" class="" alt="...">
+                          <div class="card-body">
+                            <div class="dropdown">
+                                <a class="btn btn-drop nevy-blue text-white rounded-0 p-4 fs-2" href="#" role="button" id="dropdownMenuLink" data-bs-toggle="dropdown" aria-expanded="false">
+                                    Introducing The BizCubad Method
+                                    <i class="bi bi-chevron-down"></i>
+                                </a>
+                              
+                                <ul class="dropdown-menu" aria-labelledby="dropdownMenuLink">
+                                  <li><a class="dropdown-item" href="#">Action</a></li>
+                                  <li><a class="dropdown-item" href="#">Another action</a></li>
+                                  <li><a class="dropdown-item" href="#">Something else here</a></li>
+                                </ul>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                  </div>
+                  <div class="row pt-4 mt-3">
+                    <div class="col">
+                        <div class="card">
+                          <img src="img/moon_crop.jpg" class="" alt="...">
+                          <div class="card-body">
+                            <div class="dropdown">
+                                <a class="btn btn-drop nevy-blue text-white rounded-0 p-4 fs-2" href="#" role="button" id="dropdownMenuLink" data-bs-toggle="dropdown" aria-expanded="false">
+                                    Data Analytics And Robotic Process Automation
+                                    <i class="bi bi-chevron-down"></i>
+                                </a>
+                                
+                              
+                                <ul class="dropdown-menu" aria-labelledby="dropdownMenuLink">
+                                  <li><a class="dropdown-item" href="#">Action</a></li>
+                                  <li><a class="dropdown-item" href="#">Another action</a></li>
+                                  <li><a class="dropdown-item" href="#">Something else here</a></li>
+                                </ul>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                  </div>
+                </div>
+                
+                
+              </div>
+        </div>
+    </section>
+
+
+    <!-- section-3 Tab-->
+
+    <section>
+      <div class="container">
+        <div class="tabs my-5 pt-5">
+          <ul class="nav nav-pills nav-fill">
+            <li>
+              <a class="nav-link mt-2 me-5" href="#">All</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">All</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">Analytics</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">Security</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">Data Engineering</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">Data Management </a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">Data Life Cycle</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">Data Scientist</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">Training</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">IoT</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </section>
+
+    <!-- section-4 card -->
+
+    <section>
+      <div class="container">
+        <div class="row">
+          <!--ADD CLASSES HERE d-flex align-items-stretch-->
+          <div class="col-lg-4 mb-3 d-flex align-items-stretch">
+            <div class="card">
+              <img src="https://i.postimg.cc/28PqLLQC/dotonburi-canal-osaka-japan-700.jpg" class="pt-3" alt="Card Image">
+              <div class="card-body py-4 d-flex flex-column">
+                <h2 class="card-title text-nevy-blue">Data is the engine that supports our people, process and systems</h2>
+                <p class="card-text"><small class="text-muted">by Zachary Zeus | Apr 5, 2023</small></p>
+                <p class="card-text mb-4">The world of data can seem daunting. AI, ML, Big Data, 
+                  structured, unstructured, Spark, deep learning, flink, 
+                  kafka, etc, etc, etc.</p>
+                <a href="#" class="btn btn-orange align-self-start">READ MORE<i class="bi bi-chevron-right"></i></a>
+              </div>
+            </div>
+          </div>
+          <!--ADD CLASSES HERE d-flex align-items-stretch-->
+          <div class="col-lg-4 mb-3 d-flex align-items-stretch">
+            <div class="card">
+              <img src="https://i.postimg.cc/4xVY64PV/porto-timoni-double-beach-corfu-greece-700.jpg" class="pt-3"s alt="Card Image">
+              <div class="card-body py-4 d-flex flex-column">
+                <h2 class="card-title text-nevy-blue">My #OpsWorld experience (and why I love conferences)</h2>
+                <p class="card-text"><small class="text-muted">by Maxx Silver | March 22, 2023</small></p>
+                <p class="card-text mb-4">NI heaved a deep sigh of relief as I settled back against 
+                  the hard wooden bench, the city skyline rising 
+                  prominently behind me just beyond the ferry's wake. 
+                  Conferences are exhausting, but I also find them 
+                  invigorating. The extrovert in me loves the exposure to 
+                  new...</p>
+                <a href="#" class="btn btn-orange align-self-start">READ MORE<i class="bi bi-chevron-right"></i></a>
+              </div>
+            </div>
+          </div>
+          <!--ADD CLASSES HERE d-flex align-items-stretch-->
+          <div class="col-lg-4 mb-3 d-flex align-items-stretch">
+            <div class="card">
+              <img src="https://i.postimg.cc/TYyLPJWk/tritons-fountain-valletta-malta-700.jpg" class="pt-3" alt="Card Image">
+              <div class="card-body py-4 d-flex flex-column">
+                <h2 class="card-title text-nevy-blue">Information Security and the BizCubed Ways and Values</h2>
+                <p class="card-text"><small class="text-muted">by Maxx Silver | March 22, 2023</small></p>
+                <p class="card-text mb-4">We’ve blogged previously about the BizCubed Ways 
+                  and Values. Many companies have versions of this – 
+                  they may call them values, guiding principles or 
+                  another phrase. While many in large organisations 
+                  struggle to see them as more than “corporate 
+                  buzzwords”, we rely on them heavily and incorporate 
+                  them daily.</p>
+                <a href="#" class="btn btn-orange align-self-start">READ MORE<i class="bi bi-chevron-right"></i></a>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="row">
+          <!--ADD CLASSES HERE d-flex align-items-stretch-->
+          <div class="col-lg-4 mb-3 d-flex align-items-stretch">
+            <div class="card">
+              <img src="https://i.postimg.cc/28PqLLQC/dotonburi-canal-osaka-japan-700.jpg" class="pt-3" alt="Card Image">
+              <div class="card-body py-4 d-flex flex-column">
+                <h2 class="card-title text-nevy-blue">BizCubed’s Journey to ISO27001 Certification</h2>
+                <p class="card-text"><small class="text-muted">by Rebecca Zeus | Jun 30, 2022</small></p>
+                <p class="card-text mb-4">A year ago, we blogged about Data Security as a 
+                  Practice. Since then, we have continued the practices 
+                  we talked about there, integrating it even further into 
+                  our daily practice, and incorporating new processes 
+                  and aspects into our existing cadence.</p>
+                <a href="#" class="btn btn-orange align-self-start">READ MORE<i class="bi bi-chevron-right"></i></a>
+              </div>
+            </div>
+          </div>
+          <!--ADD CLASSES HERE d-flex align-items-stretch-->
+          <div class="col-lg-4 mb-3 d-flex align-items-stretch">
+            <div class="card">
+              <img src="https://i.postimg.cc/4xVY64PV/porto-timoni-double-beach-corfu-greece-700.jpg" class="pt-3" alt="Card Image">
+              <div class="card-body py-4 d-flex flex-column">
+                <h2 class="card-title text-nevy-blue">BizCubed Announces ISO27001 Certification</h2>
+                <p class="card-text"><small class="text-muted">by Rebecca Zeus | Jun 30, 2022</small></p>
+                <p class="card-text mb-4">BizCubed is pleased to announce formal certification of its 
+                  Information Security Management System.</p>
+                <a href="#" class="btn btn-orange align-self-start">READ MORE<i class="bi bi-chevron-right"></i></a>
+              </div>
+            </div>
+          </div>
+          <!--ADD CLASSES HERE d-flex align-items-stretch-->
+          <div class="col-lg-4 mb-3 d-flex align-items-stretch">
+            <div class="card">
+              <img src="https://i.postimg.cc/TYyLPJWk/tritons-fountain-valletta-malta-700.jpg" class="pt-3" alt="Card Image">
+              <div class="card-body py-4 d-flex flex-column">
+                <h2 class="card-title text-nevy-blue">Building a New Habit is HARD!</h2>
+                <p class="card-text"><small class="text-muted">by Maxx Silver | Feb 28, 2022</small></p>
+                <p class="card-text mb-4">“Building business logic is a low priority, from my 
+                  perspective.” This was what my CEO said to me as I 
+                  shared with him my priorities for the week. The funny 
+                  part? I work for a data engineering firm and 
+                  operationalising the development of business logic is 
+                  literally...</p>
+                <a href="#" class="btn btn-orange align-self-start">READ MORE<i class="bi bi-chevron-right"></i></a>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="row">
+          <!--ADD CLASSES HERE d-flex align-items-stretch-->
+          <div class="col-lg-4 mb-3 d-flex align-items-stretch">
+            <div class="card">
+              <img src="https://i.postimg.cc/28PqLLQC/dotonburi-canal-osaka-japan-700.jpg" class="pt-3" alt="Card Image">
+              <div class="card-body py-4 d-flex flex-column">
+                <h2 class="card-title text-nevy-blue">DataOps: Build it’ or Buy it’?</h2>
+                <p class="card-text"><small class="text-muted">by Maxx Silver | Feb 15, 2022</small></p>
+                <p class="card-text mb-4">“When you need capability that you don’t have, there 
+                  are two options: you can build it yourself, or you can 
+                  partner to get it.” This was a comment made by a 
+                  Senior IT Leader in a meeting of his organisation’s 
+                  executives with BizCubed CEO, Zachary Zeus. We’ve...</p>
+                <a href="#" class="btn btn-orange align-self-start">READ MORE<i class="bi bi-chevron-right"></i></a>
+              </div>
+            </div>
+          </div>
+          <!--ADD CLASSES HERE d-flex align-items-stretch-->
+          <div class="col-lg-4 mb-3 d-flex align-items-stretch">
+            <div class="card">
+              <img src="https://i.postimg.cc/4xVY64PV/porto-timoni-double-beach-corfu-greece-700.jpg" class="pt-3" alt="Card Image">
+              <div class="card-body py-4 d-flex flex-column">
+                <h2 class="card-title text-nevy-blue">DataOps: Build it’ or Buy it’?</h2>
+                <p class="card-text"><small class="text-muted">by BizCubist | Jul 30, 2021</small></p>
+                <p class="card-text mb-4">When we think of data engineering and data science, it 
+                  can often be difficult to distinguish between the two. 
+                  Especially for people without a technical background it 
+                  can often seem like a very vague and abstract concept We 
+                  all know data is important, but how do we...</p>
+                <a href="#" class="btn btn-orange align-self-start">READ MORE<i class="bi bi-chevron-right"></i></a>
+              </div>
+            </div>
+          </div>
+          <!--ADD CLASSES HERE d-flex align-items-stretch-->
+          <div class="col-lg-4 mb-3 d-flex align-items-stretch">
+            <div class="card">
+              <img src="https://i.postimg.cc/TYyLPJWk/tritons-fountain-valletta-malta-700.jpg" class="pt-3" alt="Card Image">
+              <div class="card-body py-4 d-flex flex-column">
+                <h2 class="card-title text-nevy-blue">Data Engineering and Infrastructure</h2>
+                <p class="card-text"><small class="text-muted">by Maxx Silver | Feb 25, 2021</small></p>
+                <p class="card-text mb-4">This week we continue our exploration of The BizCubed 
+                  Method and the Data Maturity Model. See this post for an 
+                  overview of the model and this post for a deep dive on 
+                  Security. This week we tackle the relationship between 
+                  Data Engineering and Infrastructure. ---...</p>
+                <a href="#" class="btn btn-orange align-self-start">READ MORE<i class="bi bi-chevron-right"></i></a>
+              </div>
+            </div>
+          </div>
+        </div>
+
+      </div>
+    </section>
+
+
+    <!-- section-5 -->
+
+    <section>
+      <div class="container text-center bg-gray py-3 my-5">
+        <a href="btn" class="h2 text-secondary text-decoration-none">LOAD MORE POSTS</a>
+      </div>
+    </section>
+    
+
+    <!-- section-footer -->
+
+    <section class="footer nevy-blue text-white">
+      <div class="container">
+        <div class="row d-flex align-items-center py-5">
+          <div class="col-sm-2">
+            <img src="img/footer.png" alt="">
+          </div>
+          <div class="col-sm-12 col-md-8 d-block justify-content-center py-5">
+            <p>Bizcubes Pty Ltd-402/272 Pacific Hwy,Crows nest, Sydney NSW 2065, Australia</p>
+            <p>contact(at)bizcubed.com.au</p>
+            <p>cBizCubed 2021.All rights reserved.</p>
+          </div>
+          <div class="col-sm-2 d-block justify-content-center text-center">
+            <p>Follow us</p>
+            <i class="bi bi-twitter h1 p-2"></i>
+            <i class="bi bi-linkedin h1 p-2"></i>
+          </div>
+        </div>
+      </div>
+    </section>
+</body>
+</html>
